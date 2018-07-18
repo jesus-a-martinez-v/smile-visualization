@@ -1,7 +1,7 @@
 import smile.plot.hist
 import smile.stat.distribution.MultivariateGaussianDistribution
 
-object Histogram2d extends App {
+object Histogram3d extends App {
   val gauss = new MultivariateGaussianDistribution(
     // Mean vector
     Array(0.0, 0.0),
